@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@media screen and (orientation: portrait) {
+  /* Estilos que se ejecutarán si la media query es válida */
+  a{
+	target:"_blank";
+  }
+	body{
+		background-image: url("../Imagenes/Back.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: center;
+
+	}
+	p{
+		margin-top: -6.5vh;
+	}
+	#nombre{
+		margin-top: 5vh;
+		font-size: 8.5vh;
+	}
+	#edad{
+		margin-top: -10.5vh;
+		font-size: 3vh;
+		margin-bottom: 10vh;
+	}
+	#invitacion{
+		padding-right: 10vw;
+		padding-left: 10vw;
+		padding-top: 5vh;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		font-size: 5vh;
+		font-family: 'Parisienne';
+		color: f0c195;
+	}
+
+
+	img{
+		width: 10vw;
+		height: 10vw;
+		margin: 5vw;
+		display:none;
+	}
+	 #boton{
+	  	padding-left: 10vw;
+	  	align-items: center;
+	  	align-content: center;
+	  	display: inline-flex;
+      flex-wrap: wrap;
+
+	  }
+	  #A{
+	      display:block !important;
+	  }
+	  #C{
+	      display:block !important;
+	  }
+	  #B{
+	      display:block !important;
+	  }
+	  #D{
+	      display:block !important;
+	  }
+	
+}
+@media screen and (orientation: landscape) {
+	/* Estilos que se ejecutarán si la media query es válida */
+	  a{
+	target:"_blank";
+  }
+	body{
+		background-image: url("../Imagenes/Back.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: center;
+
+	}
+	p{
+		margin-top: -8.5vw;
+	}
+	#nombre{
+		margin-top: 11vw;
+		font-size: 15.11vw;
+	}
+	#edad{
+		margin-top: -18.6vw;
+		font-size: 5.3vw;
+		margin-bottom: 10vw;
+	}
+	#invitacion{
+		padding-right: 10vh;
+		padding-left: 10vh;
+		padding-top: 5vw;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		font-size: 8.8vw;
+		font-family: 'Parisienne';
+		color: f0c195;
+	}
+	img{
+		width: 10vw;
+		height: 10vw;
+		margin: 5vw;
+		display:none;
+	}
+	 #boton{
+	  	padding-left: 10vw;
+	  	align-items: center;
+	  	align-content: center;
+	  	display: inline-flex;
+      flex-wrap: wrap;
+      margin-bottom: 40vh;
+
+	  }
+        #A{
+	      display:block !important;
+	  }
+	  #C{
+	      display:block !important;
+	  }
+	  #B{
+	      display:block !important;
+	  }
+	  #D{
+	      display:block !important;
+	  }
+    
+}
+  

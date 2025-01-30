@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@media screen and (orientation: portrait) {
+  /* Estilos que se ejecutarán si la media query es válida */
+  a{
+	target:"_blank";
+  }
+	body{
+		background-image: url("../Imagenes/Back.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-x: center;
+
+	}
+	#invitacion{
+		padding-right: 10vw;
+		padding-left: 10vw;
+		padding-top: 5vh;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		font-size: 5vh;
+		font-family: 'Herr Von Muellerhoff', bold;
+		color: f0c195;
+	}
+
+	div{
+		font-size: 1vh;
+		float: left;
+		margin: 2vw;
+		align-items: center;
+		padding-left: 4vw;
+		
+	}
+	#sa{
+		display: flex;
+	   	align-items: center;
+	   	justify-content: center;
+		padding-top: 3vh;
+		padding-bottom: 5vh;
+		margin-bottom: 2vh;
+		color: c3e6e8;
+		font-family: 'Times New Roman', Times, serif;
+	}
+	#dia{
+		border-top: solid;
+		border-bottom: solid;
+		border-color: c3e6e8;
+		float: left;
+		text-align: center;
+		border-width: .5vh;
+	}
+	#mes{
+		float: right;
+		border-top: solid;
+		border-bottom: solid;
+		border-color: c3e6e8;
+		border-width: .5vh;
+		vertical-align: center;
+	}
+	#nd{
+		font-size: 9vh;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#Nombre{
+		margin-top: 5vh;
+		margin-bottom: 0vh;
+		font-size: 15vh;
+	}
+	#edad{
+		margin-top:  -10vh;
+		margin-bottom: 0vh;
+		text-align: right;
+		padding-right:7vw;
+		font-size: 9vh;
+	}
+	#nombre_y_edad{
+		margin-bottom: 5vh;
+		
+
+	}
+	article{
+		padding-left:  3vw;
+		padding-right:  3vw;
+		font-size: 3vh;
+	}
+	
+	img{
+		width: 10vw;
+		height: 10vw;
+	}
+	
+}
+@media screen and (orientation: landscape) {
+	/* Estilos que se ejecutarán si la media query es válida */
+	  body{
+		  
+		background-color: black; 
+		align-items: center;
+	  }
+	  #invitacion{
+		  background-image: url("../Imagenes/Back.png");
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  background-position-x: center;
+		  width:  66vw;
+		  height: 130vw;
+		  padding-right: 10vw;
+		  padding-left: 10vw;
+		  padding-top: 5vh;
+		  align-items: center;
+		  align-content: center;
+		  text-align: center;
+		  font-size: 5vw;
+		  font-family: 'Herr Von Muellerhoff', bold;
+		  color: f0c195;
+		  margin-left: 6vw;
+	  }
+  
+	  div{
+		  font-size: 1vw;
+		  float: left;
+		  margin: 2vh;
+		  align-items: center;
+		  padding-left: 4vh;
+		  
+	  }
+	  #sa{
+		  display: flex;
+			 align-items: center;
+			 justify-content: center;
+		  padding-top: 3vw;
+		  padding-bottom: 5vw;
+		  color: c3e6e8;
+		  font-family: 'Times New Roman', Times, serif;
+	    font-size: 7vw;
+	  }
+	  #dia{
+		  border-top: solid;
+		  border-bottom: solid;
+		  border-color: c3e6e8;
+		  float: left;
+		  text-align: center;
+		  border-width: .5vw;
+	  }
+	  #mes{
+		  float: right;
+		  border-top: solid;
+		  border-bottom: solid;
+		  border-color: c3e6e8;
+		  border-width: .5vw;
+		  vertical-align: center;
+	  }
+	  #nd{
+		  font-size: 15vw;
+		  margin-top: 0;
+		  margin-bottom: 0;
+	  }
+	  #Nombre{
+		  margin-top: 5vw;
+		  margin-bottom: 0vh;
+		  font-size: 17vw;
+	  }
+	  #edad{
+		  margin-top:  -9vw;
+		  margin-bottom: 0vh;
+		  text-align: right;
+		  padding-right:7vh;
+		  font-size: 8vw;
+	  }
+	  #nombre_y_edad{
+		  margin-bottom: 10vw;
+		  		margin-top: 20vw;
+	  }
+	  article{
+		  padding-left:  3vh;
+		  padding-right:  3vh;
+		  font-size: 3vw;
+	  }
+	  
+	  img{
+		  width: 20vh;
+		  height: 20vh;
+		  padding-left: 3vh;
+		  padding-top: 10vh;
+	  }
+	  #boton{
+	  	
+	  	align-items: center;
+	  	align-content: center;
+	  	display: inline-flex;
+      flex-wrap: wrap;
+	  }
+	  
+  }
