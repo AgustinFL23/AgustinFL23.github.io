@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link href="estilos.css" rel="stylesheet" type="text/css"/>
+	
+	<title></title>
+</head>
+<body bgcolor=#f1dcde>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 	<script>
+ 		AOS.init();
+ 	</script>
+	<div id="Margin">	
+		<div id="celeb" >
+			<img src="Imagenes\celeb.jpg" alt="" align="center" data-aos="fade-down">
+
+		</div>
+		<img src="Imagenes\Separador.png" alt=""data-aos="slide-left" align="center" id="sep">
+		<img src="Imagenes\Separador2.png" data-aos="slide-right" alt="" align="center" id="sep2">
+ 		<div  data-aos="fade-right" delay="-10" data-aos-duration="500" id="invi" >
+ 			¡Te invito a mis XV Años!
+		</div>
+		<div  data-aos="fade-down" id="inicial" data-aos-duration="200" >
+ 			<h2 data-aos="slide-left" data-aos-delay="-10"> Diana Valeria Cortes Lopez</h2>
+ 			<p data-aos="zoom-in" data-aos-delay="5">30 -Octubre -2021</p>
+ 			
+		</div>
+		<img src="Imagenes\Separador.png" alt=""data-aos="slide-left" align="center" id="sep">
+		<img src="Imagenes\Separador2.png" data-aos="slide-right" alt="" align="center" id="sep2">
+		
+		<script>
+			var end = new Date('10/30/2021 9:30 AM');
+		    var _second = 1000;
+    		var _minute = _second * 60;
+    		var _hour = _minute * 60;
+    		var _day = _hour * 24;
+    		var timer;
+		    function showRemaining() {
+        		var now = new Date();
+        		var distance = end - now;
+        		if (distance < 0) {
+		            clearInterval(timer);
+        		    document.getElementById('countdown').innerHTML = 'EXPIRED!';
+            	return;
+        	}
+        	var days = Math.floor(distance / _day);
+        	var hours = Math.floor((distance % _day) / _hour);
+        	var minutes = Math.floor((distance % _hour) / _minute);
+        	var seconds = Math.floor((distance % _minute) / _second);
+        	function zeroFill( number, width ){
+				width -= number.toString().length;
+  				if ( width > 0 ){
+				    return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
+				}
+ 				return number + ""; // siempre devuelve tipo cadena
+			}
+
+			document.getElementById('countdownd').innerHTML = zeroFill(days,2) ;
+        	document.getElementById('countdownh').innerHTML = zeroFill(hours,2);
+        	document.getElementById('countdownm').innerHTML = zeroFill(minutes,2) ;
+        	document.getElementById('countdowns').innerHTML = zeroFill(seconds,2) ;
+    }
+
+    timer = setInterval(showRemaining, 1000);
+	</script>
+	<div>
+		<p id="invi">Faltan solo:</p>
+		<div id="tapa"> 
+			<div id="countdownd" ></div>
+			<div id="countdown2">Días</div>
+		</div>
+		<div id="lata">
+			<div id="countdownh" ></div>
+			<div id="countdown2">Horas</div>
+		</div>
+		<div id="lata">
+			<div id="countdownm" ></div>
+			<div id="countdown2">Minutos</div>
+		</div>
+		<div id="lata">
+			<div id="countdowns" ></div>
+			<div id="countdown2">Segundos</div>
+		</div>
+	</div> 
+	</div>  	
+</body>
+</html>

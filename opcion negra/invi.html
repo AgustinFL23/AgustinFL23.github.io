@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link href="Estilos/estiloI.css" rel="stylesheet" type="text/css"/>
+	
+	<title></title>
+</head>
+<body bgcolor=black>
+	<audio id="audioID" loop controls="" autoplay="true"> <source src="Audios/GJWHF.mp3"  type="audio/mp3"></audio>
+
+<script>
+var myaudio = document.getElementById("audioID").autoplay = true;
+</script>
+	
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 	<script>
+ 		AOS.init();
+ 	</script>
+
+	<div id="Margin">	
+		<div id="celeb" >
+			<img src="Imagenes\celeb.jpg" alt="" align="center" data-aos="fade-down">
+
+		</div>
+		<img src="Imagenes\Separador.png" alt=""data-aos="slide-left" align="center" id="sep">
+		<img src="Imagenes\Separador2.png" data-aos="slide-right" alt="" align="center" id="sep2">
+ 		<div  data-aos="fade-right" delay="-10" data-aos-duration="500" id="invi" >
+ 			¡Te invito a mis XV Años!
+		</div>
+		<div  data-aos="fade-down" id="inicial" data-aos-duration="200" >
+ 			<h2 data-aos="slide-left" data-aos-delay="-10"> Diana Valeria Cortes Lopez</h2>
+ 			<p data-aos="zoom-in" data-aos-delay="5">30 -Octubre -2021</p>
+ 			
+		</div>
+		<img src="Imagenes\Separador.png" alt=""data-aos="slide-left" align="center" id="sep">
+		<img src="Imagenes\Separador2.png" data-aos="slide-right" alt="" align="center" id="sep2">
+		
+		<script>
+			var end = new Date('10/30/2021 04:00 PM');
+		    var _second = 1000;
+    		var _minute = _second * 60;
+    		var _hour = _minute * 60;
+    		var _day = _hour * 24;
+    		var timer;
+		    function showRemaining() {
+        		var now = new Date();
+        		var distance = end - now;
+        		if (distance < 0) {
+		            clearInterval(timer);
+        		    document.getElementById('countdown').innerHTML = 'EXPIRED!';
+            	return;
+        	}
+        	var days = Math.floor(distance / _day);
+        	var hours = Math.floor((distance % _day) / _hour);
+        	var minutes = Math.floor((distance % _hour) / _minute);
+        	var seconds = Math.floor((distance % _minute) / _second);
+        	function zeroFill( number, width ){
+				width -= number.toString().length;
+  				if ( width > 0 ){
+				    return new Array( width + (/\./.test( number ) ? 2 : 1) ).join( '0' ) + number;
+				}
+ 				return number + ""; 
+			}
+
+			document.getElementById('countdownd').innerHTML = zeroFill(days,2) ;
+        	document.getElementById('countdownh').innerHTML = zeroFill(hours,2);
+        	document.getElementById('countdownm').innerHTML = zeroFill(minutes,2) ;
+        	document.getElementById('countdowns').innerHTML = zeroFill(seconds,2) ;
+    }
+
+    timer = setInterval(showRemaining, 1000);
+	</script>
+	<div data-aos="flip-down" data-aos-delay="-600">
+		<p id="invi" >Faltan solo:</p>
+		<div id="tapa" data-aos="slide-left" data-aos-delay="-500"> 
+			<div id="countdownd" ></div>
+			<div id="countdown2">Días</div>
+		</div>
+		<div id="lata" data-aos="slide-left" data-aos-delay="-500">
+			<div id="countdownh" ></div>
+			<div id="countdown2">Horas</div>
+		</div>
+		<div id="lata"  data-aos="slide-right" data-aos-delay="-500">
+			<div id="countdownm" ></div>
+			<div id="countdown2">Minutos</div>
+		</div>
+		<div id="lata" data-aos="slide-right" data-aos-delay="-500">
+			<div id="countdowns" ></div>
+			<div id="countdown2">Segundos</div>
+		</div>
+	</div>
+	<!--Apartir de aqui cambiar opcion rosa-->
+	<div id="Padres" data-aos="zoom-in-up" data-aos-delay=-100>
+		<img src="Imagenes/padres.png" width="30%" height="=30%">
+		<p>
+			Padres:<br>
+			<span>Ebany Lopez</span><br>
+			Y<br>
+			<span>Jorge Cortes</span><br>
+			<div id="dedicatoria" data-aos="flip-up" data-aos-delay="-500">
+				Mis quince años...
+				<br>
+				En este cuento de hadas , hoy me toca sentirme como una princesa... 
+				Pero en mi sueño encantado todos son protagonistas de este cuento feliz , inolvidable y mágico. 
+				<br>
+				Los espero..
+			</div>
+		</p>
+		
+	</div>
+	<div id="Padres" data-aos="zoom-in-up" data-aos-delay=-100>
+		<img src="Imagenes/madrina.png" width="30%" height="=30%" >
+		<p>
+			Madrina:<br>
+			<span>Grecia Anaya</span><br>
+			
+		</p>
+		
+	</div>
+	<div>
+		<div id="ceremonia" data-aos="slide-right" data-aos-delay="-500">
+			<img src="Imagenes/iglesia.png" width="30%" height="=30%" >
+			<p id="principal">Ceremonia:<br>18:00</p>
+		"Parroquia de San Juan Bosco"
+		<br>
+		Blvd. Bosque Pte. S/N, Bosques del Valle, 55717 San Francisco Coacalco, Méx
+		<br>
+		<br>
+		<br id="espacio">
+		<a href="https://goo.gl/maps/GUjUezogd5xyuL3F8" id="boton" target="_blank">Ubicación</a>
+		</div>
+		<div id="fiesta" data-aos="slide-left" data-aos-delay="-500"  >
+			<img src="Imagenes/pastel.png" width="30%" height="=30%" >
+			<p id="principal">Fiesta:<br>19:00</p>
+		"Salón Real de San Marcos"
+		<br>
+		Calle Benito Juárez 89, Santiago Teyahualco, 54980 Santiago Teyahualco, Méx.
+		<br>
+		<br>
+		<a href="https://goo.gl/maps/VafKmzPKyjYmEKMS8" id="boton" target="_blank">Ubicación</a>
+		</div>
+	</div>
+	<div  data-aos="fade-down" id="inicial" data-aos-duration="200" >
+ 			<p data-aos="zoom-in" data-aos-delay="5">
+ 				Código de vestimenta
+
+ 			</p>
+ 			<h2>Formal</h2>
+ 			<img src="Imagenes/formal.png" width="20%" height="20%">
+		</div>
+	</div>
+ 	<div id="aviso-movil-horizontal">
+    Por favor, coloca tu móvil en horizontal.
+	</div>
+	
+</body>
+</html>

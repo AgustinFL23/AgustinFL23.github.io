@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Prata&family=Vidaloka&display=swap');
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/monoton/v10/5h1aiZUrOngCibe4TkHLQg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+	background-image: url(Imagenes/fondo.png);
+	background-repeat: repeat;
+	background-size: 30% auto;
+}
+#celeb img { 
+	margin-left:30%;
+	width: 40%;
+	height: 40%;
+	border-radius: 100px;
+}
+#Margin{
+	margin: 20px;
+	padding: 20px;
+}
+#sep{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left:40%;
+	width: 10%;
+	height: 10%;
+
+}
+#sep2{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 10%;
+	height: 10%;
+
+}
+#inicial{
+	background-color: #b46d75;
+	/*box-shadow: 0 0 50px white;*/
+	color:#eeeeee;
+	text-align:center;
+	width: 40%;
+	height: 10%;
+	border-top-right-radius: 10% 29%;
+	border-bottom-left-radius: 10% 29%;
+	margin-left:25%;
+	margin-right:25%;
+	border-right-width:5%;
+	margin-top: 2%;
+	padding: 20px;
+	font-size: 250%;
+	font-family: "Vidaloka", Sans-serif;
+	border-top-style: solid;
+  	border-left-style: solid;
+  	border-color: #f1d19b;
+  	padding-left: 5%;
+  	padding-right: 5%;
+  	overflow: hidden;
+
+}
+#inicial h2{
+	color:#F1D19B;
+	font-family: "Playball", Sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#invi{
+	color:black;
+	text-align:center;
+	width: 60%;
+	margin-left:20%;
+	font-size: 3rem;
+	font-family:"Prata", "Monoton", Sans-serif;
+	/*text-shadow:0 0 50px green;
+ 	padding: 15px;
+  	*/
+
+}
+#countdownd{
+	color:#F1D19B;
+	font-family: "Playball", Sans-serif;
+	font-size: 500%;
+}
+#countdownh{
+	color:#F1D19B;
+	font-family: "Playball", Sans-serif;
+	font-size: 500%;
+}
+#countdownm{
+	color:#F1D19B;
+	font-family: "Playball", Sans-serif;
+	font-size: 500%;
+}
+#countdowns{
+	color:#F1D19B;
+	font-family: "Playball", Sans-serif;
+	font-size: 500%;
+
+}
+#lata{
+	float: left;
+	padding: 2%;
+	background-color:black;
+	border-style:solid;
+	border-width: .5%;
+	border-color: #F1D19B;
+	width: 10.5%;
+	height:10%;
+	text-align: center;
+	text-shadow: 0 0 15px pink;
+	border-radius:20% 20%;
+
+}
+
+#tapa{
+	border-radius:20% 20%;
+	float: left;
+	margin-left:22%;
+	padding: 2%;
+	background-color: black;
+	border-style:solid;
+	border-width: .5%;
+	border-color: #F1D19B;
+	width: 10.5%;
+	height:10%;
+	text-align: center;
+	text-shadow: 0 0 15px pink;
+}
+#countdown2{
+	color:#F1D19B;
+	font-family: "Playball", Sans-serif;
+	font-size: 200%;
+	text-align: center;
+}
+
